@@ -106,7 +106,7 @@ if has("gui_running")
 endif
 
 " air-line
-let g:airline_theme='papercolor'
+let g:airline_theme='selenized'
 " Включить/выключить интеграцию со сторонними плагинами:
 let g:airline_enable_fugitive=1
 let g:airline_enable_syntastic=1
