@@ -171,4 +171,4 @@ set spell spelllang=ru_ru,en_us
 
 "highligth
 hi clear SpellBad
-hi SpellBad cterm=167 ctermbg=235 guifg=#ff0000 guibg=#ff0000
+hi SpellBad ctermfg=167 ctermbg=235 guifg=#ff0000 guibg=#ff0000
