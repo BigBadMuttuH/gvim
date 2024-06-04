@@ -131,8 +131,6 @@ set noundofile
 set spell spelllang=ru_ru,en_us
 
 "highligth
-hi clear SpellBad
-hi SpellBad cterm=underline
-hi SpellBad ctermfg=167 ctermbg=235
-hi SpellBad gui=underline
-hi SpellBad guifg=#282828 guibg=#fb4944
+hi SpellBad ctermfg=White ctermbg=Red cterm=underline
+hi SpellBad guifg=White guibg=Red gui=underline
+
