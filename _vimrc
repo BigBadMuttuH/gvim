@@ -66,6 +66,15 @@ if has("gui_running")
     set lines=60 columns=100
 endif
 
+" Вставочный режим - курсор в виде блока
+if &term =~ 'xterm\\|rxvt'
+  let &t_SI = "\e[5 q"
+  let &t_EI = "\e[1 q"
+endif
+
+" Нормальный режим - курсор в виде блока
+let &t_EI .= "\e[2 q"
+
 " air-line
 let g:airline_theme='selenized'
 " Включить/выключить интеграцию со сторонними плагинами:
@@ -133,4 +142,3 @@ set spell spelllang=ru_ru,en_us
 "highligth
 hi SpellBad ctermfg=White ctermbg=Red cterm=underline
 hi SpellBad guifg=White guibg=Red gui=underline
-
