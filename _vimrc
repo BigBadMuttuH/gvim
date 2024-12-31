@@ -119,7 +119,8 @@ set incsearch " Поиск по мере ввода
 set wrapscan " Циклический поиск
 
 " Кодировка
-set encoding=utf8 " Установить кодировку UTF-8
+set encoding=utf-8 " Установить кодировку UTF-8
+set termencoding=utf-8
 
 " Настройки шрифта для GUI версии
 set guifont=Hack_NF:h11:cRUSSIAN:qDRAFT
